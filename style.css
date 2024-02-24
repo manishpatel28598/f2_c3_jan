@@ -1,0 +1,70 @@
+*
+{
+    margin: 0px;
+    background-color: #cdcdcd;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1
+{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+}
+.container
+{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+input {
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+    width: 1200px; 
+    
+}
+
+
+.flex-container
+{
+    
+        display: flex; /* To align buttons horizontally */
+        justify-content: space-between;
+        margin: 25px;
+        
+}
+button
+{
+    border: none;
+    padding: 20px; 
+    flex-grow: 2;
+    margin-inline: 10px;
+    /* width: 150px;  */
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+button:hover {
+    background-color:white;
+    color:green;
+    text-decoration: underline;
+    font-weight: 900;
+}
+#searchInput{
+background-color: #ffffff;
+}
+
+#tableContainer {
+    border-collapse: collapse;
+    width: auto;
+    
+} #tableContainer td {
+    border: 1px solid;
+    padding: 8px;
+    background-color: azure;
+   
+}
